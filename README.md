@@ -30,5 +30,5 @@ JNIDemo
   
   
   ## 关于生成头文件的命令可以使用IDE的 External Tools工具配置如图：
-  ![External Tools](http://github.com/NeoPi/JNIDemo/raw/master/app/external_tools.png "External Tools 配置图")
+  ![External Tools](https://github.com/NeoPi/JNIDemo/blob/master/app/external_tools.png)
   
