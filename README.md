@@ -21,7 +21,7 @@ JNIDemo
   <pre><code>javah -d jni -classpath /home/neopi/Documents/Demo_Workspace/Demo/app/build/intermediates/classes/debug com.neopi.demo.jni.JniUtils</code></pre>
   注意debug 后面的空格，次命令执行结束后会在java的同级目录下生成一个jni文件夹，并生成名为com_neopi_demo_jni_JniUtils.h的头文件,
 ####     2.编写c文件 可以直接从刚才生成的头文件中复制对应的方法，实现即可，具体看代码 
-####     3.Android项目调用 参考MainActivity.java代码
+####     3.Android项目调用 参考[MainActivity.java](https://github.com/NeoPi/JNIDemo/blob/master/app/src/main/java/com/neopi/demo/MainActivity.java)代码
   
   
   ## 关于生成头文件的命令可以使用IDE的 External Tools工具配置如图：
