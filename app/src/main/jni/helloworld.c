@@ -5,7 +5,6 @@
 #include <syslog.h>
 #include <stdlib.h>
 #include <openssl/md5.h>
-#include <md5.h>
 
 JNIEXPORT jstring JNICALL Java_com_neopi_demo_jni_JniUtils_sayHello
         (JNIEnv *env, jobject obj) {
